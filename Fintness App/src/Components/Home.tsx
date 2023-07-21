@@ -33,7 +33,9 @@ function Home() {
                   <p className='text-2xl md:text-7xl font-bold text-white uppercase'> ABOUT US </p>
                   <p className='text-sm md:text-2xl font-bold pb-2 uppercase'> project for maxwell inc </p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam, facilis assumenda quasi aut earum eius? Delectus harum animi ducimus sit accusantium fugiat! Iure iusto voluptas est consequatur eum. Harum.</p>
-                  <Link to="/login">Detail</Link>
+                  <button className=' bg-secondary-500 hover:bg-secondary-400 text-white align-text-center pt-2 pb-2 pr-5 pl-5 m-2 rounded-md float-left'> 
+                  <Link to="/login">Read More</Link> 
+                  </button>
                 </div>
               </div>
             </div>
@@ -44,7 +46,7 @@ function Home() {
           <div className="flex pt-10 pb-10">
             <div className="flex-1 w-50">
               <p className='text-sm md:text-2xl font-bold uppercase'> the stream fitness </p>
-              <p className='text-2xl md:text-7xl font-bold text-red-400 uppercase'> ABOUT US </p>
+              <p className='text-2xl md:text-7xl font-bold text-red-400 uppercase'> fitness class </p>
               <p className='text-sm md:text-2xl pb-2 font-bold uppercase'> project for maxwell inc </p>
             </div>
             <div className="flex-1  w-50 pl-5">
@@ -55,11 +57,8 @@ function Home() {
         <div>
           <FitnessClass />
         </div>
-        <div>
-          <div className="w-full bg-primary-100 p-10 m-0">
-            <div className="text-center p-5">
-              <h2>SPONSORS</h2>
-            </div>
+        <div className='m-0'>
+          <div className="w-full bg-primary-300 p-10 m-0">
             <div className="flex justify-center gap-8 md:flex-auto">
               <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
               <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />

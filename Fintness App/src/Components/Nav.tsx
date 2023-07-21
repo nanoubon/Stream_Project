@@ -33,7 +33,7 @@ function Nav() {
                   </div>
                   <div className={`${flexBetween} gap-8`}>
                     <div className=" rounded-md bg-secondary-500 hover:bg-primary-300 text-sm pt-3 pb-3 m-3 py-10 px-10">
-                      <Link to="/login" className='uppercase text-white pt-5 pb-5 duration-100'>Login</Link>
+                      <Link to="/login" className='uppercase text-white pt-5 pb-5 duration-100'>Login / Register</Link>
                     </div>
                   </div>
                 </div>

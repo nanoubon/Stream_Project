@@ -2,10 +2,10 @@ import Logo from "../assets/st_logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-100 py-16 mt-10 mb-0">
+    <footer className="bg-primary-500 py-10 mt-0 mb-0">
       <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
         <div className="mt-16 basis-1/2 md:mt-0">
-          <img alt="logo" src={Logo} />
+          <img alt="logo" className="object-cover h-8 w-auto m-3" src={Logo} />
           <p className="my-5">
             Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
             purus et arcu massa dictum condimentum. Augue scelerisque iaculis
