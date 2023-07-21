@@ -56,18 +56,18 @@ function Home() {
           <FitnessClass />
         </div>
         <div>
-        <div className="w-full bg-primary-100 p-10">
-                <div className="text-center p-5">
-                    <h2>SPONSORS</h2>
-                  </div>
-                    <div className="flex justify-center gap-8 md:flex-auto">
-                        <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
-                        <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
-                        <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
-                        <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
-                        <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
-                    </div>
-                </div>
+          <div className="w-full bg-primary-100 p-10 m-0">
+            <div className="text-center p-5">
+              <h2>SPONSORS</h2>
+            </div>
+            <div className="flex justify-center gap-8 md:flex-auto">
+              <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
+              <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
+              <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
+              <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
+              <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
+            </div>
+          </div>
         </div>
         <Footer />
       </div>
