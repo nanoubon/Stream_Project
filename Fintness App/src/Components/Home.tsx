@@ -66,7 +66,6 @@ function Home() {
                         <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
                         <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
                         <img alt="redbull-sponsor" className=' w-16 md:w-28 rounded-md gap-1' src={SponsorsBrand} />
-                       
                     </div>
                 </div>
         </div>
