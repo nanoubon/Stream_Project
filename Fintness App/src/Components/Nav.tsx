@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Logo from '../assets/st_logo.png';
@@ -10,7 +10,6 @@ function Nav() {
 
   const flexBetween = "flex justify-between";
   const navbarBackground = "bg-primary-100 drop-shadow";
-  const textMenu = "uppercase text-white pt-5 pb-5  hover:text-secondary-500 duration-100";
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
 
@@ -26,10 +25,10 @@ function Nav() {
               {isAboveMediumScreens ?
                 (<div className={`${flexBetween} w-full`}>
                   <div className={`${flexBetween} gap-10 text-sm`}>
-                    <Link to="/" className={`${textMenu}`}>Home</Link>
-                    <Link to="/about" className={`${textMenu}`} >About</Link>
-                    <Link to="/blog" className={`${textMenu}`}>Blog</Link>
-                    <Link to="/contact" className={`${textMenu}`}>Contact</Link>
+                    <Link to="/" className='uppercase text-white pt-5 pb-5  hover:text-secondary-500 duration-100'>Home</Link>
+                    <Link to="/about" className='uppercase text-white pt-5 pb-5 hover:text-secondary-500 duration-100'>About</Link>
+                    <Link to="/blog" className='uppercase text-white pt-5 pb-5  hover:text-secondary-500 duration-100'>Blog</Link>
+                    <Link to="/contact" className='uppercase text-white pt-5 pb-5  hover:text-secondary-500 duration-100'>Contact</Link>
                   </div>
                   <div className={`${flexBetween} gap-8`}>
                     <div className=" rounded-md bg-secondary-500 hover:bg-primary-300 text-sm pt-3 pb-3 m-3 py-10 px-10">
@@ -62,10 +61,10 @@ function Nav() {
 
             {/* MENU ITEMS */}
             <div className="ml-[20%] flex flex-col gap-1 text-lg">
-              <Link to="/" className={`${textMenu}`}>Home</Link>
-              <Link to="/about" className={`${textMenu}`} >About</Link>
-              <Link to="/blog" className={`${textMenu}`}>Blog</Link>
-              <Link to="/contact" className={`${textMenu}`}>Contact</Link>
+              <Link to="/" className='uppercase text-white pt-5 pb-5  hover:text-secondary-500 duration-100'>Home</Link>
+                    <Link to="/about" className='uppercase text-white pt-5 pb-5 hover:text-secondary-500 duration-100'>About</Link>
+                    <Link to="/blog" className='uppercase text-white pt-5 pb-5  hover:text-secondary-500 duration-100'>Blog</Link>
+              <Link to="/contact" className='uppercase text-white pt-5 pb-5  hover:text-secondary-500 duration-100'>Contact</Link>
             </div>
           </div>
         )}

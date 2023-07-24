@@ -7,6 +7,7 @@ import About from './Components/About.tsx'
 import Blog from './Components/Blog.tsx'
 import Contact from './Components/Contact.tsx'
 import Login from './Components/Login.tsx'
+import Register from './Components/User/Register.tsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path:'login',
     element: <Login/>
+  },
+  {
+   path:'register',
+   element: <Register/>
   }
   
 ])

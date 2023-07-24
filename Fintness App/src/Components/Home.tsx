@@ -10,7 +10,6 @@ import SponsorsBrand from '../assets/p1.jpg'
 function Home() {
   return (
     <>
-      <div className="scroll-smooth">
         <Nav />
         <div>
           {/* Heading */}
@@ -26,7 +25,7 @@ function Home() {
             <div className='container mx-auto px-4 pt-5 pb-5'>
               <div className="flex w-full pt-10 pb-10">
                 <div className="md:flex-1 w-50">
-                  <img className=" rounded-xl gap-1 " src={BrandAboutBlog} />
+                  <img className=" rounded-xl gap-1 " alt={"Banner Blog"} src={BrandAboutBlog} />
                 </div>
                 <div className="p-2 md:flex-1 w-50 pl-5">
                   <p className='text-sm md:text-2xl font-bold uppercase'> the stream fitness </p>
@@ -34,7 +33,7 @@ function Home() {
                   <p className='text-sm md:text-2xl font-bold pb-2 uppercase'> project for maxwell inc </p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam, facilis assumenda quasi aut earum eius? Delectus harum animi ducimus sit accusantium fugiat! Iure iusto voluptas est consequatur eum. Harum.</p>
                   <button className=' bg-secondary-500 hover:bg-secondary-400 text-white align-text-center pt-2 pb-2 pr-5 pl-5 m-2 rounded-md float-left'> 
-                  <Link to="/login">Read More</Link> 
+                  <Link to="/about">Read More</Link>
                   </button>
                 </div>
               </div>
@@ -69,7 +68,6 @@ function Home() {
           </div>
         </div>
         <Footer />
-      </div>
     </>
   )
 }

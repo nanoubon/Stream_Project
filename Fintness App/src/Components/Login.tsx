@@ -1,33 +1,10 @@
-
 import logo from '../assets/st_logo.png'
+import {Link} from "react-router-dom";
 
 function Login() {
   return (
-
-    /*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
     <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-white">
-        <body class="h-full">
-        ```
-      */}
-      <div className="flex bg-primary-500 min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+        <div className="flex bg-primary-500 min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             className="mx-auto h-10 w-auto"
@@ -92,9 +69,9 @@ function Login() {
 
           <p className="mt-10 text-center text-sm text-gray-500">
             Not a member?{' '}
-            <a href="#" className="font-semibold leading-6 text-secondary-500 hover:text-secondary-400">
+            <Link to="/register" className="font-semibold leading-6 text-secondary-500 hover:text-secondary-400">
               Register
-            </a>
+            </Link>
           </p>
         </div>
       </div>
@@ -102,5 +79,4 @@ function Login() {
   )
 }
 
-
-export default Login
+export default Login;
